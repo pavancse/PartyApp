@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/card_1">
+
+    <LinearLayout
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                app:srcCompat="@android:color/darker_gray"
+                android:id="@+id/rvThingsImageView"/>
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            <TextView
+                    android:id="@+id/rvThingsName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                    android:id="@+id/rvThingsPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/rvThingsName"/>
+
+
+            <TextView
+                    android:id="@+id/rvThingsClaimUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/rvThingsPrice"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Claim"
+                    android:id="@+id/rvClaimBtn"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:background="@color/colorWhite"
+                    android:textColor="@color/colorPrimary"
+                    app:layout_constraintTop_toBottomOf="@+id/rvThingsPrice"/>
+            <Button
+                    android:text="URL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rvURLBtn"
+                    android:background="@color/colorWhite"
+                    android:textColor="@color/colorPrimary"
+                    app:layout_constraintRight_toLeftOf="@+id/rvClaimBtn"
+                    app:layout_constraintTop_toBottomOf="@+id/rvThingsPrice"
+            />
+        </android.support.constraint.ConstraintLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

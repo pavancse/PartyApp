@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. Theme.AppCompat.Light.DarkActionBar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AddInviteesActionButton" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorGoogleGreen</item>
+    </style>
+
+    <style name="SharePhotoActionButton" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorGoogleBlue</item>
+    </style>
+
+    <style name="AddEventActionButton" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="InviteesSearchTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorGoogleGreen</item>
+        <item name="colorPrimaryDark">@color/colorGoogleGreenDark</item>
+        <item name="colorAccent">@color/colorGoogleGreenAccent</item>
+    </style>
+
+    <style name="PhotoDownloadTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorGoogleBlue</item>
+        <item name="colorPrimaryDark">@color/colorGoogleBlueDark</item>
+        <item name="colorAccent">@color/colorGoogleBlueAccent</item>
+    </style>
+
+    <style name="ThingsViewTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorGoogleYellow</item>
+        <item name="colorPrimaryDark">@color/colorGoogleYellowDark</item>
+        <item name="colorAccent">@color/colorGoogleYellowAccent</item>
+    </style>
+
+    <style name="LoginTheme" parent="AppTheme">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+    </style>
+
+</resources>

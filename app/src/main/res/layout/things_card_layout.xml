@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    app:cardCornerRadius="5dp"
+                                    app:cardElevation="10dp"
+                                    app:cardUseCompatPadding="true"
+                                    android:id="@+id/card_1">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/thingsCheckBox"/>
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                app:srcCompat="@android:color/darker_gray"
+                android:id="@+id/thingsImageView"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/thingsName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp"/>
+
+        <TextView
+                    android:id="@+id/thingsPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/info"
+            android:enabled="true"
+            android:icon="@drawable/ic_spa_white_24dp"
+            android:title="@string/text_info"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/invitees"
+            android:enabled="true"
+            android:icon="@drawable/ic_people_white_24dp"
+            android:title="@string/text_invitees"
+            app:showAsAction="ifRoom" />
+    <item
+            android:id="@+id/photos"
+            android:enabled="true"
+            android:icon="@drawable/ic_photo_library_white_24dp"
+            android:title="@string/text_photos"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/things"
+            android:enabled="true"
+            android:icon="@drawable/ic_photo_library_white_24dp"
+            android:title="Things"
+            app:showAsAction="ifRoom"/>
+
+</menu>
+

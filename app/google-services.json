@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "311660382408",
+    "firebase_url": "https://partyapp-b957d.firebaseio.com",
+    "project_id": "partyapp-b957d",
+    "storage_bucket": "partyapp-b957d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311660382408:android:0f28d3f8542f86ae",
+        "android_client_info": {
+          "package_name": "edu.cis600.syracuse.partyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311660382408-251ai4p3jo8pmql8p3n1oc05rsjbur00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.cis600.syracuse.partyapp",
+            "certificate_hash": "fb45b36d8d1db18d0aee53075daaef1e96399cb3"
+          }
+        },
+        {
+          "client_id": "311660382408-6pc5u19a8uplum1dbked5m3tqdmebvhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR0OcWXUVjNexJm2zPXA16j5ufu3NgXEU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311660382408-6pc5u19a8uplum1dbked5m3tqdmebvhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
